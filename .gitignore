@@ -2,3 +2,5 @@
 # Specify filepatterns you want git to ignore.
 
 data/
+.vscode
+__pycache__
