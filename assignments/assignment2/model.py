@@ -11,9 +11,9 @@ class TwoLayerNet:
         Initializes the neural network
 
         Arguments:
-        hidden_layer_size, int - number of neurons in the hidden layer
         n_input, int - dimension of the model input
         n_output, int - number of classes to predict
+        hidden_layer_size, int - number of neurons in the hidden layer
         reg, float - L2 regularization strength
         """
         self.reg = reg
@@ -37,7 +37,7 @@ class TwoLayerNet:
         
         # TODO Compute loss and fill param gradients
         # by running forward and backward passes through the model
-
+        
         # After that, implement l2 regularization on all params
         # Hint: self.params() is useful again!
         raise Exception("Not implemented!")
